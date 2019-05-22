@@ -69,6 +69,7 @@ def do_request(s):
 
 
 # 创建网络连接
+#主函数
 def main():
     # 套接字
     s = socket(AF_INET, SOCK_DGRAM)
